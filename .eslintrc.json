@@ -1,0 +1,22 @@
+{
+    "env": {
+        "node": true,
+        "es6": true,
+        "jest": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 2018
+    },
+    "extends": [
+        "eslint:recommended"
+    ],
+    "rules": {
+        "no-console": "off",
+        "no-await-in-loop": "error",
+        "no-extra-parens": "error",
+        "eqeqeq": "error",
+        "no-magic-numbers": [
+            "error", { "ignoreArrayIndexes": true }
+        ]
+    }
+}
